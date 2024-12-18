@@ -59,7 +59,7 @@ h6 {
 }
 
 body {
-    color: #20304a;
+    color: #000000;
     background-color: white;
     font-family: 'Golos', sans-serif;
 }
@@ -80,7 +80,8 @@ header div {
 nav ul {
     list-style: none;
     display: flex;
-    gap: 8px;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .container {
@@ -88,4 +89,24 @@ nav ul {
     padding-left: 16px;
     padding-right: 16px;
     margin: 0 auto;
+}
+
+.image-link1 {
+    display: inline-block;
+    margin: 0;
+}
+
+.image-link1 img {
+    display: block;
+    width: 80px;
+}
+
+.image-link2 {
+    display: inline-block;
+    margin: 0;
+}
+
+.image-link2 img {
+    display: block;
+    width: 60px;
 }
