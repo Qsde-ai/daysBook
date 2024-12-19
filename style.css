@@ -126,3 +126,26 @@ footer {
 .contacts-block img {
     display: inline-block;
 }
+
+button{
+    padding: 8px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 100%;
+    text-wrap: nowrap;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #dddddd;
+}
+
+input{
+    padding: 8px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 100%;
+    text-wrap: nowrap;
+    border: none;
+    border-radius: 10px;
+    background-color: #dddddd;
+}
