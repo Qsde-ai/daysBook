@@ -87,6 +87,36 @@ nav ul {
     align-items: center;
 }
 
+#add-plan-card, #add-goal-card {
+    margin-bottom: 32px;
+  }
+
+
+  #plans-list, #goals-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0;
+  }
+  
+  .plan-item, .goal-item {
+    background-color: #8a99b5;
+    padding: 16px;
+    border-radius: 16px;
+  }
+  
+  .plan-item:has(.urgent-check:checked) {
+    background-color: #f16d22;
+    color: white;
+  }
+  
+  .plan-item:has(.completed-check:checked), .goal-item:has(.completed-check:checked) {
+    background-color: #eff1f4;
+    color: #20304a;
+    text-decoration: line-through;
+  }
+
 .container {
     flex: 1;
     max-width: 1200px;
