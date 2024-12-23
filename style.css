@@ -137,12 +137,12 @@ nav ul {
 
 .image-link2 {
     display: inline-block;
-    margin: 0;
+    margin-left: 20px;
 }
 
 .image-link2 img {
     display: block;
-    width: 60px;
+    width: 80px;
 }
 
 footer {
@@ -189,4 +189,32 @@ input{
     border: 2px solid black;
     border-radius: 10px;
     background-color: white;
+}
+
+.image-link1{
+    display: inline-block;
+}
+
+.image-link1 img{
+    display: block;
+    transition: box-shadow 0.3s;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.image-link1:hover img{
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.image-link2{
+    display: inline-block;
+}
+
+.image-link2 img{
+    display: block;
+    transition: box-shadow 0.3s;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.image-link2:hover img{
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
